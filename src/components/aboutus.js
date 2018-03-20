@@ -6,6 +6,7 @@ const AboutUs = () => {
     <section className="aboutus">
       <div className="intro">
         <h1>Intimidated by incubation?</h1>
+
         <p>
           Let Peep give you a guided experience, based on our collective
           knowledge of how to best incubate eggs. At the same time, we can learn

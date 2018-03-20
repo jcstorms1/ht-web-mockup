@@ -10,7 +10,9 @@ const NavBar = () => {
       <img src={logo} alt="hatchtrack logo" />
       <nav>
         <div className="links-container">
-          <Link to="/">About Us</Link>
+          <Link id="aboutus" to="/">
+            About Us
+          </Link>
           <Link to="/ourstory">Our Story</Link>
           <Link to="/ourteam">Our Team</Link>
         </div>
