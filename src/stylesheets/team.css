@@ -1,0 +1,25 @@
+.team-wrapper {
+  background-color: rgba(255, 255, 255, 0.5);
+  background-image: url(../images/chicken-feathers2.jpg);
+  background-repeat: no-repeat;
+  background-size: 150% 150%;
+  padding: 0;
+}
+
+team {
+  padding: 10vh;
+}
+team h1 {
+  font-family: "Oswald", "sans-serif";
+  text-align: center;
+  font-size: 3vw;
+  margin-top: 0;
+  margin-bottom: 5vh;
+}
+
+team p {
+  text-align: center;
+  font-family: "Questrial", "sans-serif";
+  font-size: 2vw;
+  margin: 0;
+}

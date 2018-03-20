@@ -7,7 +7,7 @@ import App from "./App";
 import "./index.css";
 
 ReactDOM.render(
-  <Router>
+  <Router onUpdate={() => window.scrollTo(0, 0)}>
     <Route path="/" component={App} />
   </Router>,
   document.getElementById("root")

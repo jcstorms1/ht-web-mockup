@@ -10,6 +10,7 @@ import Footer from "./components/footer";
 import "./App.css";
 class App extends Component {
   render() {
+    debugger;
     return (
       <div className="container">
         <NavBar />
