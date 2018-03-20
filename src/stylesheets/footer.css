@@ -1,8 +1,6 @@
 .wrapper-bottom {
-  position: fixed;
+  position: absolute;
   height: 2vh;
-  bottom: 0;
-  left: 0;
   padding: 1em;
   background-color: rgba(223, 162, 105, 0.8);
   text-align: center;

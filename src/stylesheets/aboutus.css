@@ -1,0 +1,43 @@
+.aboutus {
+  /* display: flex; */
+  align-content: center;
+  justify-content: center;
+}
+
+.aboutus h1 {
+  font-family: "Oswald", "sans-serif";
+  text-align: center;
+  font-size: 3vw;
+  margin: 0;
+  padding: 1vh;
+}
+
+.aboutus p {
+  text-align: center;
+  font-family: "Questrial", "sans-serif";
+  font-size: 2vw;
+  margin: 0;
+}
+
+.intro,
+.peep,
+.egg {
+  height: 40vh;
+  font-size: 2.25vw;
+  padding: 2.5vw;
+}
+
+.intro {
+  background-color: rgba(255, 255, 255, 0.75);
+  color: black;
+}
+
+.peep {
+  background-color: rgba(50, 66, 76, 0.5);
+  color: white;
+}
+
+.egg {
+  background-color: rgba(255, 255, 255, 0.75);
+  color: black;
+}

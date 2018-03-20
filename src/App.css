@@ -1,11 +1,7 @@
 .container {
-  height: 100vh;
+  height: 200%;
   width: 100%;
   background-image: url("images/chicken-feathers.jpg");
-  background-size: 200%;
+  background-size: 200% 200%;
   background-repeat: no-repeat;
-}
-
-.inner-container {
-  padding: 2vw 5vh;
 }

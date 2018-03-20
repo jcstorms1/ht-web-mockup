@@ -3,12 +3,15 @@ img {
 }
 
 .wrapper {
+  position: fixed;
   display: flex;
+  top: 0;
   align-items: center;
   justify-content: center;
-  padding: 10px 10px;
-  margin: 0 auto;
+  width: 100%;
+  padding: 10px;
   background: rgba(223, 162, 105, 0.9);
+  z-index: 100;
 }
 
 nav {
@@ -31,10 +34,6 @@ nav {
   font-size: 3vw;
   color: white;
   opacity: 0.25;
-}
-
-.countdown svg:hover {
-  color: #c85a47;
 }
 
 .links-container {
@@ -70,5 +69,5 @@ nav {
 }
 
 .icon-container svg:last-child {
-  margin-right: 4vw;
+  margin-right: 8vw;
 }
