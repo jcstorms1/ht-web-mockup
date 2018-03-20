@@ -1,33 +1,49 @@
 import React from "react";
 import { withRouter } from "react-router-dom";
-import "../stylesheets/story.css";
-const OurTeam = () => {
+import CEO from "../images/michael.jpeg";
+import "../stylesheets/team.css";
+const Team = () => {
   return (
     <div className="team-wrapper">
       <div className="cover">
         <div className="team">
-          <h1>Our Story</h1>
+          <h1>Our Team</h1>
           <p>
-            I’d always talked about chickens for years before I had any. After
-            getting chickens and learning so much about these smart birds, I
-            found the Pavlovskaya chicken - a rare breed from Russia. I had eggs
-            shipped to me from across the country, and six out of twelve
-            hatched.
+            The founders of Hatchtrack, Michael and Meghan, live in Yacolt WA
+            with their two daughters, horses, alpacas, sheep, miniature donkeys,
+            ducks, and lots of chickens on a small animal rescue farm. We
+            believe in the value of animal life the same as we believe in the
+            value of human life!
           </p>
           <br />
-          <p>
-            I wanted to find a better way to incubate eggs - and realized that
-            started with gathering data. I built a prototype to log data to the
-            internet and display it, and realized that if I could gather this
-            data from incubators across the world, we could learn better how to
-            incubate eggs.
-          </p>
+          <section className="ceo">
+            <div className="ceo-image">
+              <img src={CEO} alt="CEO" />
+            </div>
+            <div className="ceo-bio">
+              <p>
+                Michael is CEO of a small engineering contracting company called
+                Widgt, specializing in high quality electronic development
+                across a wide variety of industries. He’s worked in technology
+                in a diverse range of industries, including process equipment,
+                defense, IT, automotive, radio, and consumer electronics. He
+                loves escaping technology as well, and has backpacked many parts
+                of the Appalachian Trail, Glacier National Park, and the Sacred
+                Valley in Peru. Beyond egg incubation, he also wants to found a
+                combination tech incubator and monastery, which he
+                affectionately refers to as a space cult - will he be the first
+                to keep chickens on Mars?
+              </p>
+            </div>
+          </section>
           <br />
           <p>
-            I hope to use this information and profits from Peep to help grow
-            and expand our knowledge of chickens, and realized this same
-            technology could do the same for other birds (and even reptiles -
-            aren’t chickens just tiny dinosaurs anyway?)
+            Meghan is currently a stay at home mom for her two daughters and a
+            natural birth advocate. She has been involved in the wedding
+            industry, including running her own wedding styling business, is a
+            certified doula, and has her hands more than full trying to bring
+            her and Michael’s ideas to life! Her dream is to start a natural
+            birth center to support educating and empowering women.
           </p>
         </div>
       </div>
@@ -35,4 +51,4 @@ const OurTeam = () => {
   );
 };
 
-export default withRouter(OurTeam);
+export default withRouter(Team);

@@ -1,15 +1,18 @@
 .team-wrapper {
   background-color: rgba(255, 255, 255, 0.5);
-  background-image: url(../images/chicken-feathers2.jpg);
+  background-image: url(../images/chicken-feathers3.jpeg);
   background-repeat: no-repeat;
-  background-size: 150% 150%;
+  background-size: 100% 100%;
+  background-attachment: fixed;
   padding: 0;
 }
 
-team {
-  padding: 10vh;
+.team-wrapper > .cover {
 }
-team h1 {
+
+.team {
+}
+.team h1 {
   font-family: "Oswald", "sans-serif";
   text-align: center;
   font-size: 3vw;
@@ -17,9 +20,38 @@ team h1 {
   margin-bottom: 5vh;
 }
 
-team p {
+.team p {
   text-align: center;
   font-family: "Questrial", "sans-serif";
   font-size: 2vw;
   margin: 0;
+}
+
+.team-wrapper > img {
+  height: 10%;
+}
+
+.ceo {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  height: 30%;
+  padding: 10vh 5vw 10vh;
+  background-color: rgba(50, 66, 76, 0.5);
+  color: white;
+}
+
+.ceo-image {
+  display: flex;
+  align-content: center;
+  width: 30%;
+  padding: ;
+}
+
+.ceo-image > img {
+  width: 100%;
+  height: auto;
+}
+.ceo-bio {
+  width: 60%;
 }
