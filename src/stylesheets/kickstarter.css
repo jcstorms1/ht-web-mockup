@@ -1,11 +1,11 @@
 .kickstarter {
-  height: 30vh;
+  height: 20%vh;
   background-color: rgba(50, 66, 76, 0.8);
 
   color: white;
   text-align: center;
   font-family: "Oswald", "sans-sarif";
-  padding-top: 8vh;
+  padding: 5vh;
 }
 
 .kickstarter h1 {

@@ -4,7 +4,7 @@ import NavBar from "./components/navbar";
 import Story from "./components/story";
 import Footer from "./components/footer";
 import KickStarter from "./components/kickstarter";
-
+import "./App.css";
 class App extends Component {
   render() {
     return (
