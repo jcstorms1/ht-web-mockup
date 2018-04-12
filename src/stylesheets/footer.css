@@ -1,12 +1,16 @@
 .wrapper-bottom {
-  position: absolute;
-  padding: 1em;
-  background-color: rgba(223, 162, 105, 0.7);
+  position: fixed;
+  height: 5%;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(223, 162, 105);
   text-align: center;
+  padding: 5px;
 }
 
 .wrapper-bottom > img {
-  width: 10%;
+  padding: 5px;
+  width: 8%;
   height: auto;
-  margin: auto;
+  margin-top: auto;
 }
