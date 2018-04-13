@@ -17,3 +17,7 @@
   font-size: 4vw;
   color: #c85a47;
 }
+
+.kickstarter .loader span {
+  color: white;
+}
