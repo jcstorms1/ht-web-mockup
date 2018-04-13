@@ -45,10 +45,18 @@ class KickStarter extends Component {
           <span>Calculating...</span>
         ) : (
           <div className="clock">
-            <div className="days">{this.state.days} Days</div>
-            <div>{this.state.hours} Hours</div>
-            <div>{this.state.mins} Min(s)</div>
-            <div>{this.state.seconds} Sec(s)</div>
+            <div className="days">
+              {this.state.days} <span>Days</span>
+            </div>
+            <div className="hours">
+              {this.state.hours} <span>Hours</span>
+            </div>
+            <div className="mins">
+              {this.state.mins} <span>Minutes</span>
+            </div>
+            <div className="secs">
+              {this.state.seconds} <span>Seconds</span>
+            </div>
           </div>
         )}
       </section>
