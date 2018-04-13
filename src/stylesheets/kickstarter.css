@@ -12,7 +12,10 @@
   font-size: 4vw;
   letter-spacing: 0.25vw;
 }
-
+.kickstarter > span {
+  color: #c85a47;
+  font-size: 2em;
+}
 .clock {
   display: flex;
   justify-content: center;
