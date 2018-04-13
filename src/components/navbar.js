@@ -21,7 +21,9 @@ const NavBar = () => {
       </nav>
       <div className="icon-container">
         <i className="fab fa-kickstarter" />
-        <i className="fab fa-facebook-square" />
+        <a href="https://www.facebook.com/hatchtrack/">
+          <i className="fab fa-facebook-square" />
+        </a>
         {/* <i className="fab fa-instagram" />
         <i className="fab fa-twitter-square" /> */}
       </div>
