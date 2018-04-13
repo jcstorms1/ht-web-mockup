@@ -15,14 +15,15 @@ const NavBar = () => {
           </Link>
           <Link to="/ourstory">Our Story</Link>
           <Link to="/ourteam">Our Team</Link>
+          <Link to="/contactus">Contact Us</Link>
         </div>
         {/* <div className="filler-right" /> */}
       </nav>
       <div className="icon-container">
         <i className="fab fa-kickstarter" />
         <i className="fab fa-facebook-square" />
-        <i className="fab fa-instagram" />
-        <i className="fab fa-twitter-square" />
+        {/* <i className="fab fa-instagram" />
+        <i className="fab fa-twitter-square" /> */}
       </div>
     </div>
   );

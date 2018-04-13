@@ -7,6 +7,7 @@ import AboutUs from "./components/aboutus";
 import Story from "./components/story";
 import Team from "./components/team";
 import Footer from "./components/footer";
+import ContactUs from "./components/contactus";
 
 import "./App.css";
 class App extends Component {
@@ -20,6 +21,7 @@ class App extends Component {
             <Route exact path="/" component={AboutUs} />
             <Route exact path="/ourstory" component={Story} />
             <Route exact path="/ourteam" component={Team} />
+            <Route exact path="/contactus" component={ContactUs} />
           </Switch>
         </section>
         <Footer />
