@@ -14,10 +14,6 @@
 }
 
 .kickstarter span {
-  font-size: 4vw;
+  font-size: 2em;
   color: #c85a47;
-}
-
-.kickstarter .loader span {
-  color: white;
 }

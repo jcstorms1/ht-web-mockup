@@ -7,9 +7,8 @@ class KickStarter extends Component {
     days: 0,
     hours: 0,
     mins: 0,
-    seconds: 0,
+    seconds: "",
     intervalId: null,
-    started: false,
     deadline: "2018-05-31 23:59:59",
     launched: false
   };
@@ -41,10 +40,9 @@ class KickStarter extends Component {
     console.log(this.state.intervalId);
     return (
       <section className="kickstarter">
-        <h1>Kickstarter Coming June 1 st 2018!</h1>
-
-        {this.state.started && !this.state.launched ? (
-          "Calculating..."
+        <h1>Kickstarter Coming June 1st, 2018!</h1>
+        {this.state.seconds === "" && !this.state.launched ? (
+          <span>Calculating...</span>
         ) : (
           <div className="clock">
             <div className="days">{this.state.days} Days</div>
