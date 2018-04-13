@@ -4,11 +4,14 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import registerServiceWorker from "./registerServiceWorker";
 
 import App from "./App";
+import ScrollToTop from "./scrollToTop";
 import "./index.css";
 
 ReactDOM.render(
-  <Router onUpdate={() => window.scrollTo(0, 0)}>
-    <Route path="/" component={App} />
+  <Router>
+    <ScrollToTop>
+      <Route path="/" component={App} />
+    </ScrollToTop>
   </Router>,
   document.getElementById("root")
 );
