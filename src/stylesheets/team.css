@@ -7,23 +7,14 @@
   padding: 0;
 }
 
-.team-wrapper > .cover {
-}
-
-.team {
-}
 .team h1 {
-  font-family: "Oswald", "sans-serif";
   text-align: center;
-  font-size: 3vw;
   margin-top: 0;
   margin-bottom: 5vh;
 }
 
 .team p {
   text-align: center;
-  font-family: "Questrial", "sans-serif";
-  font-size: 2vw;
   margin: 0;
 }
 
