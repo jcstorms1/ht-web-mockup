@@ -1,6 +1,7 @@
 import React from "react";
 import { withRouter } from "react-router-dom";
 import CEO from "../images/michael.jpeg";
+import CEO2 from "../images/hen.jpg";
 import "../stylesheets/team.css";
 const Team = () => {
   return (
@@ -37,14 +38,20 @@ const Team = () => {
           </div>
         </div>
         <div className="ceo-2">
-          <p>
-            Meghan is currently a stay at home mom for her two daughters and a
-            natural birth advocate. She has been involved in the wedding
-            industry, including running her own wedding styling business, is a
-            certified doula, and has her hands more than full trying to bring
-            her and Michael’s ideas to life! Her dream is to start a natural
-            birth center to support educating and empowering women.
-          </p>
+          <div className="ceo-2-bio">
+            <h1>Meghan Anfang</h1>
+            <p>
+              Meghan is currently a stay at home mom for her two daughters and a
+              natural birth advocate. She has been involved in the wedding
+              industry, including running her own wedding styling business, is a
+              certified doula, and has her hands more than full trying to bring
+              her and Michael’s ideas to life! Her dream is to start a natural
+              birth center to support educating and empowering women.
+            </p>
+          </div>
+          <div className="ceo-2-image">
+            <img src={CEO2} alt="Co-Founder" />
+          </div>
         </div>
       </div>
     </div>

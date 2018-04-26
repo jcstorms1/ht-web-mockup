@@ -23,30 +23,49 @@
 }
 
 .our-team {
-  padding: 10vh;
+  padding: 10vh 5vw 15vh;
   text-align: center;
 }
 .ceo {
   display: flex;
   justify-content: center;
   align-content: center;
-  height: 30%;
-
   background-color: rgba(50, 66, 76, 0.5);
   color: white;
 }
 
+.ceo h1 {
+  margin-bottom: 0;
+}
+
 .ceo-image {
   margin: auto;
-  margin-right: 12% !important;
+  margin-right: 12.5% !important;
 }
 
 .ceo-image > img {
   width: 175%;
   border-radius: 100%;
 }
-.ceo-bio {
+.ceo-bio,
+.ceo-2-bio {
   text-align: center;
   width: 60%;
   padding: 3.5%;
+}
+
+.ceo-2 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 30%;
+}
+
+.ceo-2-image {
+  margin: auto;
+  margin-left: 5%;
+}
+.ceo-2-image > img {
+  width: 70%;
+  border-radius: 100%;
 }
