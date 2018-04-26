@@ -7,7 +7,7 @@
   padding: 0;
 }
 
-.team h1 {
+.our-team h1 {
   text-align: center;
   margin-top: 0;
   margin-bottom: 5vh;
@@ -22,26 +22,31 @@
   height: 10%;
 }
 
+.our-team {
+  padding: 10vh;
+  text-align: center;
+}
 .ceo {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-content: center;
   height: 30%;
-  padding: 10vh 5vw 10vh;
+
   background-color: rgba(50, 66, 76, 0.5);
   color: white;
 }
 
 .ceo-image {
-  display: flex;
-  align-content: center;
-  width: 30%;
+  margin: auto;
+  margin-right: 12% !important;
 }
 
 .ceo-image > img {
-  width: 100%;
-  height: auto;
+  width: 175%;
+  border-radius: 100%;
 }
 .ceo-bio {
+  text-align: center;
   width: 60%;
+  padding: 3.5%;
 }
