@@ -16,17 +16,16 @@ const NavBar = () => {
           <Link to="/ourstory">Our Story</Link>
           <Link to="/ourteam">Our Team</Link>
           <Link to="/contactus">Contact Us</Link>
+          <Link to="/livedemo">Live Demo</Link>
         </div>
-        {/* <div className="filler-right" /> */}
       </nav>
-      <div className="icon-container">
+      {/* <div className="icon-container">
         <i className="fab fa-kickstarter" />
         <a href="https://www.facebook.com/hatchtrack/">
           <i className="fab fa-facebook-square" />
         </a>
         {/* <i className="fab fa-instagram" />
         <i className="fab fa-twitter-square" /> */}
-      </div>
     </div>
   );
 };

@@ -18,7 +18,7 @@ img {
 
 nav {
   display: flex;
-  width: 80%;
+  width: 100%;
   align-items: center;
   justify-content: center;
   padding: 5px 5px;
@@ -41,13 +41,14 @@ nav {
 .links-container {
   display: flex;
   align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
 }
 
 .links-container > a {
   position: relative;
   text-decoration: none;
   color: #32424c;
-  margin: 0 5vw;
 }
 
 .links-container > a:hover,

@@ -1,12 +1,40 @@
 import React, { Component } from "react";
-import withRouter from "react-router-dom";
+import Graph from "../components/graph";
+import "../stylesheets/data.css";
 
 class DataContainer extends Component {
-  state = {};
-
+  state = {
+    data: {
+      id: "Hatchtrack-Test-001",
+      data: [
+        {
+          timestamp: "2018-04-30T17:29:56Z",
+          temperature: 36.91,
+          humidity: 17.773,
+          pressure: 99552
+        },
+        {
+          timestamp: "2018-04-30T17:45:03Z",
+          temperature: 36.84,
+          humidity: 16.92,
+          pressure: 99556
+        },
+        {
+          timestamp: "2018-04-30T18:00:10Z",
+          temperature: 36.86,
+          humidity: 16.131,
+          pressure: 99558
+        }
+      ]
+    }
+  };
   render() {
-    return <div />;
+    return (
+      <div className="data-wrapper">
+        <Graph data={this.state.data} />
+      </div>
+    );
   }
 }
 
-export default withRouter(DataContainer);
+export default DataContainer;

@@ -1,0 +1,10 @@
+.data-wrapper {
+  background-color: rgba(255, 255, 255, 0.75);
+  color: black;
+  height: 150%;
+  padding: 10vh, 5vw, 15vh;
+}
+
+.canvas {
+  background: black;
+}
