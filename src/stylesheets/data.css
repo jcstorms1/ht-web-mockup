@@ -1,10 +1,21 @@
 .data-wrapper {
+  display: flex;
   background-color: rgba(255, 255, 255, 0.75);
   color: black;
-  height: 150%;
+  height: 100vh;
   padding: 10vh, 5vw, 15vh;
 }
 
-.canvas {
-  background: black;
+.chart-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 60%;
+  height: 60%;
+  background-color: rgba(50, 66, 76, 0.5);
+}
+canvas {
+  margin: auto;
+  width: 90% !important;
+  height: auto !important;
 }

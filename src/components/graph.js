@@ -39,7 +39,7 @@ const Graph = props => {
       }
     ]
   };
-  return <Line data={datasets} width="800px" height="500px" />;
+  return <Line data={datasets} width="600px" height="300px" />;
 };
 
 export default Graph;
