@@ -31,9 +31,7 @@ class DataContainer extends Component {
   render() {
     return (
       <div className="data-wrapper">
-        <div className="chart-container">
-          <Graph data={this.state.data} />
-        </div>
+        <Graph data={this.state.data} />
       </div>
     );
   }

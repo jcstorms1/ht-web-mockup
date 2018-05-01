@@ -39,7 +39,33 @@ const Graph = props => {
       }
     ]
   };
-  return <Line data={datasets} width="600px" height="300px" />;
+
+  const pressureData = {
+    labels: labels,
+    datasets: [
+      {
+        label: "Pressure",
+        fillColor: "rgba(220,220,220,0.2)",
+        strokeColor: "rgba(220,220,220,1)",
+        pointColor: "rgba(220,220,220,1)",
+        pointStrokeColor: "#fff",
+        pointHighlightFill: "#fff",
+        pointHighlightStroke: "rgba(220,220,220,1)",
+        data: pressure
+      }
+    ]
+  };
+
+  return (
+    <div className="chart-container">
+      <div className="temp-humidity">
+        <Line data={datasets} options={{ responsive: true }} />
+      </div>
+      <div className="pressure">
+        <Line data={pressureData} options={{ responsive: true }} />
+      </div>
+    </div>
+  );
 };
 
 export default Graph;
