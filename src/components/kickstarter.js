@@ -37,7 +37,6 @@ class KickStarter extends Component {
   }
 
   render() {
-    console.log(this.state.intervalId);
     return (
       <section className="kickstarter">
         <h1>Kickstarter Coming June 4th, 2018!</h1>
