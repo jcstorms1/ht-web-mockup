@@ -1,37 +1,24 @@
 import React, { Component } from "react";
 import Graph from "../components/graph";
+import { createQuery } from "../hocs/api";
 import "../stylesheets/data.css";
 
 class DataContainer extends Component {
   state = {
-    data: {
-      id: "Hatchtrack-Test-001",
-      data: [
-        {
-          timestamp: "2018-04-30T17:29:56Z",
-          temperature: 36.91,
-          humidity: 17.773,
-          pressure: 99552
-        },
-        {
-          timestamp: "2018-04-30T17:45:03Z",
-          temperature: 36.84,
-          humidity: 16.92,
-          pressure: 99556
-        },
-        {
-          timestamp: "2018-04-30T18:00:10Z",
-          temperature: 36.86,
-          humidity: 16.131,
-          pressure: 99558
-        }
-      ]
-    }
+    data: null
   };
+
+  componentDidMount() {
+    let http = createQuery();
+    fetch(http)
+      .then(res => res.json())
+      .then(data => this.setState({ data }));
+  }
+
   render() {
     return (
       <div className="data-wrapper">
-        <Graph data={this.state.data} />
+        {this.state.data !== null ? <Graph data={this.state.data} /> : null}
       </div>
     );
   }
