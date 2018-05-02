@@ -1,5 +1,5 @@
 import React from "react";
-import { Line } from "react-chartjs";
+import { Line } from "react-chartjs-2";
 
 const Graph = props => {
   let labels = [];
@@ -19,23 +19,13 @@ const Graph = props => {
     datasets: [
       {
         label: "Temperature",
-        fillColor: "rgba(220,220,220,0.2)",
-        strokeColor: "rgba(220,220,220,1)",
-        pointColor: "rgba(220,220,220,1)",
-        pointStrokeColor: "#fff",
-        pointHighlightFill: "#fff",
-        pointHighlightStroke: "rgba(220,220,220,1)",
-        data: temperature
+        data: temperature,
+        fill: false
       },
       {
         label: "Humidity",
-        fillColor: "rgba(151,187,205,0.2)",
-        strokeColor: "rgba(151,187,205,1)",
-        pointColor: "rgba(151,187,205,1)",
-        pointStrokeColor: "#fff",
-        pointHighlightFill: "#fff",
-        pointHighlightStroke: "rgba(151,187,205,1)",
-        data: humidity
+        data: humidity,
+        fill: false
       }
     ]
   };
@@ -45,13 +35,8 @@ const Graph = props => {
     datasets: [
       {
         label: "Pressure",
-        fillColor: "rgba(220,220,220,0.2)",
-        strokeColor: "rgba(220,220,220,1)",
-        pointColor: "rgba(220,220,220,1)",
-        pointStrokeColor: "#fff",
-        pointHighlightFill: "#fff",
-        pointHighlightStroke: "rgba(220,220,220,1)",
-        data: pressure
+        data: pressure,
+        fill: false
       }
     ]
   };
