@@ -7,7 +7,7 @@ const id = "Hatchtrack-Test-001";
 export const createQuery = () => {
   //get timestamps 24 hours apart
   let yesterday = moment()
-    .subtract(1, "day")
+    .subtract(3, "day")
     .toISOString();
   let now = moment().toISOString();
   let query = http + id + "&start=" + yesterday + "&stop=" + now;

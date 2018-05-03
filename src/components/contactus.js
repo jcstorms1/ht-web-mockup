@@ -1,6 +1,11 @@
 import React from "react";
+import ReCAPTCHA from "react-google-recaptcha";
 
 const ContactUs = () => {
+  const onChange = value => {
+    console.log("Captcha value: ", value);
+  };
+
   return (
     <section>
       <form>
@@ -13,6 +18,10 @@ const ContactUs = () => {
         <div className="message">
           <textarea placeholder="Message" />
         </div>
+        <ReCAPTCHA
+          sitekey="6Lcv8FYUAAAAAED1yHHAWXC64elE8bFuUtbvfpwP"
+          onchange={onChange}
+        />
       </form>
     </section>
   );

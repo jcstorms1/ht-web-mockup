@@ -1,6 +1,6 @@
 .wrapper-bottom {
   position: relative;
-  background-color: rgb(223, 162, 105, 0.5);
+  background-color: rgba(50, 66, 76, 0.8);
   text-align: center;
   padding: 2em;
 }
@@ -17,7 +17,6 @@
 
 .inner-bottom {
   display: flex;
-  background: white;
   margin: 0 auto;
   padding: 1em;
 }

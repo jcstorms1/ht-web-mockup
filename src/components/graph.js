@@ -9,7 +9,7 @@ const Graph = props => {
   let pressure = [];
 
   for (let obj of props.data.data) {
-    labels.push(moment(obj["timestamp"]).format("LT"));
+    labels.push(moment(obj["timestamp"]).format("l LT"));
     temperature.push(obj["temperature"]);
     humidity.push(obj["humidity"]);
     pressure.push(obj["pressure"]);
