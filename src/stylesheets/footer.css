@@ -29,14 +29,13 @@
 .social-media a {
   color: rgb(223, 162, 105, 0.5);
   margin-right: 0.2em;
+  font-size: 1.25em;
 }
 
 .form-container {
-  margin: auto;
+  margin: 0 auto;
 }
 
-.form-container > h1 {
-}
 .name {
   float: left;
   width: 45%;
