@@ -6,9 +6,11 @@ const ContactUs = () => {
     console.log("Captcha value: ", value);
   };
 
+  let captcha;
+
   return (
     <section>
-      <form>
+      <form onSubmit={() => captcha.execute()}>
         <div className="name">
           <input type="text" placeholder="Name" />
         </div>
@@ -16,12 +18,9 @@ const ContactUs = () => {
           <input type="email" placeholder="Email" />
         </div>
         <div className="message">
-          <textarea placeholder="Message" />
+          <textarea placeholder="Message" rows="5" />
         </div>
-        <ReCAPTCHA
-          sitekey="6Lcv8FYUAAAAAED1yHHAWXC64elE8bFuUtbvfpwP"
-          onChange={onChange}
-        />
+        <button>Send</button>
       </form>
     </section>
   );

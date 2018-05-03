@@ -55,20 +55,3 @@ nav {
 .links-container > a:focus {
   color: #c85a47;
 }
-
-.icon-container {
-  display: flex;
-  justify-content: center;
-  width: 10%;
-}
-
-.icon-container svg {
-  font-size: 2.5vw;
-  margin-right: 1vw;
-  color: white;
-  opacity: 0.5;
-}
-
-.icon-container svg:last-child {
-  margin-right: 3vw;
-}
