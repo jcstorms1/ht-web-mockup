@@ -23,15 +23,17 @@
 }
 
 .social-container {
+  display: flex;
   margin: 0 auto;
 }
 
-.social-media a {
+.social-container a {
   color: rgb(223, 162, 105, 0.5);
   margin-right: 0.2em;
   font-size: 1.25em;
 }
 
+.subscribe-container,
 .form-container {
   margin: 0 auto;
 }
@@ -75,6 +77,12 @@ button {
   opacity: 1;
 }
 
+#logo {
+  width: 100px;
+  height: auto;
+  z-index: 1000;
+  color: white;
+}
 @media only screen and (max-width: 600px) {
   .inner-bottom {
     flex-direction: column;

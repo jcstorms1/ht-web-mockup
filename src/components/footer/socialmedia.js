@@ -2,7 +2,9 @@ import React from "react";
 
 const SocialMedia = () => {
   return (
-    <div className="social-media">
+    <section>
+      <h1>Follow Us</h1>
+
       <a>
         <i className="fab fa-kickstarter" />
       </a>
@@ -15,7 +17,7 @@ const SocialMedia = () => {
       <a>
         <i className="fab fa-twitter-square" />
       </a>
-    </div>
+    </section>
   );
 };
 
