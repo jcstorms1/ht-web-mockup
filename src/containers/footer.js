@@ -4,9 +4,7 @@ import logo from "../images/logo-typeonly.png";
 
 const Footer = () => {
   return (
-    <div className="wrapper-bottom">
-      <img src={logo} alt="logo" />
-    </div>
+    <div className="wrapper-bottom">{/* <img src={logo} alt="logo" /> */}</div>
   );
 };
 
