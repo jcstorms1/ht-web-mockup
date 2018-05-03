@@ -2,11 +2,19 @@ import React from "react";
 
 const ContactUs = () => {
   return (
-    <form>
-      <input type="text" placeholder="Name" />
-      <input type="email" placeholder="Email" />
-      <textarea />
-    </form>
+    <section>
+      <form>
+        <div className="name">
+          <input type="text" placeholder="Name" />
+        </div>
+        <div className="email">
+          <input type="email" placeholder="Email" />
+        </div>
+        <div className="message">
+          <textarea placeholder="Message" />
+        </div>
+      </form>
+    </section>
   );
 };
 

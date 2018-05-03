@@ -1,13 +1,37 @@
 .wrapper-bottom {
   position: relative;
-  background-color: rgb(223, 162, 105);
+  background-color: rgb(223, 162, 105, 0.5);
   text-align: center;
-  padding: 5px;
+  padding: 2em;
 }
 
 .wrapper-bottom > img {
   padding: 5px;
-  width: 8%;
-  height: auto;
+  height: 5px;
   margin-top: auto;
+}
+
+.wrapper-bottom h1 {
+  font-size: 1em;
+}
+
+.inner-bottom {
+  display: flex;
+  background: white;
+  margin: 0 auto;
+  padding: 1em;
+}
+.social-container {
+  width: 50%;
+}
+.name {
+  float: left;
+}
+
+.email {
+  float: right;
+}
+
+textarea {
+  width: 100%;
 }
