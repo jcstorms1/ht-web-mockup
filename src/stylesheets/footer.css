@@ -1,7 +1,6 @@
 .wrapper-bottom {
   position: relative;
   background-color: rgba(50, 66, 76, 1);
-  text-align: center;
   padding: 2em;
 }
 
@@ -15,24 +14,28 @@
   font-size: 1.25em;
   text-align: left;
   color: #c85a47;
+  margin-bottom: 0.4em;
 }
 
 .inner-bottom {
   display: flex;
-  justify-content: center;
-  margin: 0 auto;
   padding: 1em;
 }
+
 .social-container {
-  width: 50%;
+  margin: 0 auto;
 }
+
+.social-media a {
+  color: rgb(223, 162, 105, 0.5);
+  margin-right: 0.2em;
+}
+
 .form-container {
-  width: 50%;
-  max-width: 20em;
+  margin: auto;
 }
 
 .form-container > h1 {
-  margin-bottom: 0.4em;
 }
 .name {
   float: left;
