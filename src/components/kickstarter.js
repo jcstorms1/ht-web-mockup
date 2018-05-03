@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Moment from "moment";
+import moment from "moment";
 import "../stylesheets/kickstarter.css";
 
 class KickStarter extends Component {
@@ -9,13 +9,13 @@ class KickStarter extends Component {
     mins: 0,
     seconds: "",
     intervalId: null,
-    deadline: "2018-06-3 23:59:59",
+    deadline: "2018-06-03 23:59:59",
     launched: false
   };
 
   timeLeft = () => {
-    const end = Moment(this.state.deadline);
-    const now = Moment(new Date());
+    const end = moment(this.state.deadline);
+    const now = moment();
     if (end.diff(now) < 0) {
       this.setState({ launched: true });
     } else {

@@ -20,7 +20,7 @@ const ContactUs = () => {
         </div>
         <ReCAPTCHA
           sitekey="6Lcv8FYUAAAAAED1yHHAWXC64elE8bFuUtbvfpwP"
-          onchange={onChange}
+          onChange={onChange}
         />
       </form>
     </section>
