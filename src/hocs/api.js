@@ -1,7 +1,7 @@
 import moment from "moment";
 
 const http =
-  "http://ec2-18-236-96-240.us-west-2.compute.amazonaws.com:80/api/logdata?id=";
+  "https://ec2-18-236-96-240.us-west-2.compute.amazonaws.com:80/api/logdata?id=";
 const id = "Hatchtrack-Test-001";
 
 export const createQuery = () => {
