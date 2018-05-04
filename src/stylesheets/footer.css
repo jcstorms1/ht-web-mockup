@@ -17,6 +17,12 @@
   margin-bottom: 0.4em;
 }
 
+.wrapper-bottom p {
+  text-align: center;
+  color: #c85a47;
+  font-size: 0.8em;
+}
+
 .inner-bottom {
   display: flex;
   padding: 1em;
