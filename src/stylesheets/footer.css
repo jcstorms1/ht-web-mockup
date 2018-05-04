@@ -83,12 +83,19 @@ button {
   opacity: 1;
 }
 
-#logo {
-  width: 100px;
-  height: auto;
-  z-index: 1000;
-  color: white;
+.subfooter {
+  width: 100%;
+  padding: 1em;
+  border-top: 1px solid rgb(255, 255, 255, 0.2);
+  background-color: rgba(50, 66, 76, 1);
 }
+
+.subfooter p {
+  text-align: center;
+  color: #c85a47;
+  font-size: 0.8em;
+}
+
 @media only screen and (max-width: 600px) {
   .inner-bottom {
     flex-direction: column;

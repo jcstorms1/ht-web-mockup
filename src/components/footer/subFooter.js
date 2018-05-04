@@ -2,7 +2,7 @@ import React from "react";
 
 const SubFooter = () => {
   return (
-    <div>
+    <div className="subfooter">
       <p>Copyright © Hatchtrack 2018</p>
     </div>
   );

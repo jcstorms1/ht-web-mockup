@@ -8,21 +8,23 @@ import "../stylesheets/footer.css";
 class Footer extends Component {
   render() {
     return (
-      <div className="wrapper-bottom">
-        <div className="inner-bottom">
-          <div className="subscribe-container">
-            <Subscribe />
-          </div>
-          <div className="form-container">
-            <h1>Contact Us</h1>
-            <ContactUs />
-          </div>
-          <div className="social-container">
-            <SocialMedia />
+      <section>
+        <div className="wrapper-bottom">
+          <div className="inner-bottom">
+            <div className="subscribe-container">
+              <Subscribe />
+            </div>
+            <div className="form-container">
+              <h1>Contact Us</h1>
+              <ContactUs />
+            </div>
+            <div className="social-container">
+              <SocialMedia />
+            </div>
           </div>
         </div>
         <SubFooter />
-      </div>
+      </section>
     );
   }
 }
