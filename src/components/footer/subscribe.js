@@ -12,8 +12,9 @@ const Subscribe = () => {
         </div>
 
         <input type="email" placeholder="Email" />
-
-        <button>Send</button>
+        <div className="button">
+          <button>Send</button>
+        </div>
       </form>
     </section>
   );

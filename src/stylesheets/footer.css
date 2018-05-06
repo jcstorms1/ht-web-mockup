@@ -78,12 +78,20 @@ input {
 textarea {
   width: 100%;
   padding: 0.75em 1em;
-  margin-bottom: 0;
+  margin-bottom: 0.4em;
 }
 
 button {
-  float: left;
-  margin: 0;
+  background: rgba(223, 162, 105, 0.5);
+  color: #fff;
+  position: relative;
+  padding: 0 2em;
+  border: none;
+  font-size: 0.75em;
+  height: 2em;
+  cursor: pointer;
+  transition: 800ms ease all;
+  outline: none;
 }
 
 ::placeholder {
@@ -118,5 +126,13 @@ button {
   .email {
     float: none;
     padding: 0;
+  }
+
+  .button {
+    text-align: center;
+  }
+
+  .subfooter p {
+    font-size: 0.6em;
   }
 }
