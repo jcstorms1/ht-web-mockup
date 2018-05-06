@@ -3,13 +3,13 @@
   color: white;
   text-align: center;
   font-family: "Oswald", "sans-sarif";
-  padding-top: 15vh;
+  padding-top: 20vh;
   padding-bottom: 5vh;
 }
 
 .kickstarter h1 {
   margin: 0;
-  font-size: 4vw;
+  font-size: 3.5em;
   letter-spacing: 0.25vw;
 }
 .kickstarter > span {
@@ -33,4 +33,21 @@
 .clock span {
   color: white;
   font-size: 1em;
+}
+
+@media only screen and (max-width: 600px) {
+  .kickstarter {
+    padding-top: 5em;
+  }
+
+  .kickstarter h1 {
+    font-size: 1.5em;
+  }
+
+  .days,
+  .hours,
+  .mins,
+  .secs {
+    font-size: 1.15em;
+  }
 }

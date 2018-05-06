@@ -14,7 +14,7 @@
   font-size: 1.25em;
   text-align: center;
   color: #c85a47;
-  margin-bottom: 0.4em;
+  margin-bottom: 0.6em;
 }
 
 .wrapper-bottom p {
@@ -46,6 +46,14 @@
 .subscribe-container,
 .form-container {
   margin: 0 auto;
+}
+
+.subscribe-container {
+  width: 15%;
+}
+
+.subscribe-container input {
+  width: 100%;
 }
 
 .name {
@@ -100,6 +108,7 @@ button {
 }
 
 .subfooter {
+  display: flex;
   width: 100%;
   padding: 0.75em;
   border-top: 1px solid rgb(255, 255, 255, 0.1);
@@ -107,7 +116,7 @@ button {
 }
 
 .subfooter p {
-  text-align: center;
+  margin: 0 auto;
   color: #c85a47;
   font-size: 0.8em;
 }
