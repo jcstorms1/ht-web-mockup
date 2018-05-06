@@ -14,7 +14,7 @@ const SocialMedia = () => {
       <a>
         <i className="fab fa-instagram" />
       </a>
-      <a>
+      <a id="last-icon">
         <i className="fab fa-twitter-square" />
       </a>
     </section>

@@ -12,7 +12,7 @@
 
 .wrapper-bottom h1 {
   font-size: 1.25em;
-  text-align: left;
+  text-align: center;
   color: #c85a47;
   margin-bottom: 0.4em;
 }
@@ -39,6 +39,10 @@
   font-size: 1.25em;
 }
 
+#last-icon {
+  margin-right: 0;
+}
+
 .subscribe-container,
 .form-container {
   margin: 0 auto;
@@ -46,12 +50,12 @@
 
 .name {
   float: left;
-  width: 45%;
+  padding: 0 0.3em 0 0;
 }
 
 .email {
   float: right;
-  width: 45%;
+  padding: 0 0 0 0.3em;
 }
 
 input,
@@ -63,19 +67,23 @@ textarea {
   outline: 0;
   padding: 0 1em;
   width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 0.8em;
 }
 
 input {
   height: 2.75em;
-  margin-bottom: 0.8em;
 }
+
 textarea {
   width: 100%;
-  padding: 1em;
+  padding: 0.75em 1em;
+  margin-bottom: 0;
 }
 
 button {
   float: left;
+  margin: 0;
 }
 
 ::placeholder {
@@ -85,8 +93,8 @@ button {
 
 .subfooter {
   width: 100%;
-  padding: 1em;
-  border-top: 1px solid rgb(255, 255, 255, 0.2);
+  padding: 0.75em;
+  border-top: 1px solid rgb(255, 255, 255, 0.1);
   background-color: rgba(50, 66, 76, 1);
 }
 
@@ -101,7 +109,14 @@ button {
     flex-direction: column;
   }
 
+  .subscribe-container,
   .form-container {
-    width: 100%;
+    width: 80%;
+  }
+
+  .name,
+  .email {
+    float: none;
+    padding: 0;
   }
 }

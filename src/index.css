@@ -4,7 +4,7 @@ body {
   padding-top: 0;
   font-family: sans-serif;
   background-image: url("images/chicken-feathers.jpg");
-  background-size: 200% 200%;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  position: absolute;
 }
