@@ -33,6 +33,16 @@ a {
   color: white;
 }
 
+@media only screen and (max-width: 1080px) {
+  h1 {
+    font-size: 2.25em;
+  }
+
+  p {
+    font-size: 1.5em;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   h1 {
     font-size: 2em;

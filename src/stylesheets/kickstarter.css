@@ -35,6 +35,19 @@
   font-size: 1em;
 }
 
+@media only screen and (max-width: 1080px) {
+  .kickstarter h1 {
+    font-size: 2em;
+  }
+
+  .days,
+  .hours,
+  .mins,
+  .secs {
+    font-size: 1.55em;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .kickstarter {
     padding-top: 5em;

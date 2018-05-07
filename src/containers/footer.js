@@ -14,10 +14,11 @@ class Footer extends Component {
             <div className="subscribe-container">
               <Subscribe />
             </div>
-            <div className="form-container">
+            <div className="contact-container">
               <h1>Contact Us</h1>
               <ContactUs />
             </div>
+            <div className="line-break" />
             <div className="social-container">
               <SocialMedia />
             </div>

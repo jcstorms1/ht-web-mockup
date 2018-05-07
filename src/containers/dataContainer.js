@@ -21,8 +21,8 @@ class DataContainer extends Component {
         {this.state.data !== null ? (
           <Graph data={this.state.data} />
         ) : (
-          <div className="sm-container">
-            <h1>Coming Soon to a computer near you!!!!!</h1>
+          <div className="sm-container" style={{ width: "100vw" }}>
+            <h1>Coming Soon!!!!!</h1>
           </div>
         )}
       </div>

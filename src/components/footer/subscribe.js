@@ -3,7 +3,7 @@ import React from "react";
 const Subscribe = () => {
   return (
     <section>
-      <h1>Join Our Mailing List</h1>
+      <h1>Subscribe</h1>
 
       <form>
         <input type="text" placeholder="First Name" />

@@ -1,7 +1,6 @@
 import React from "react";
 import { withRouter } from "react-router-dom";
-import CEO from "../images/michael.jpeg";
-import CEO2 from "../images/hen.jpg";
+
 import "../stylesheets/team.css";
 const Team = () => {
   return (
@@ -17,9 +16,9 @@ const Team = () => {
         </p>
       </div>
       <div className="ceo sm-container">
-        <div className="ceo-image">
+        {/* <div className="ceo-image">
           <img src={CEO} alt="CEO" />
-        </div>
+        </div> */}
         <div className="ceo-bio">
           <h1>Michael Anfang</h1>
           <p>
@@ -48,9 +47,9 @@ const Team = () => {
             birth center to support educating and empowering women.
           </p>
         </div>
-        <div className="ceo-2-image">
+        {/* <div className="ceo-2-image">
           <img src={CEO2} alt="Co-Founder" />
-        </div>
+        </div> */}
       </div>
     </div>
   );
