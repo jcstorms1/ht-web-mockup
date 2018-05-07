@@ -24,3 +24,31 @@ a {
   width: 100%;
   background-color: rgba(255, 255, 255, 0.75);
 }
+
+.sm-container {
+  padding: 10vh 5vw 15vh;
+}
+
+.sm-container:nth-child(odd) {
+  background-color: rgba(255, 255, 255, 0.75);
+  color: black;
+}
+
+.sm-container:nth-child(even) {
+  background-color: rgba(50, 66, 76, 0.5);
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  p {
+    font-size: 1.25em;
+  }
+
+  .sm-container {
+    padding: 10vh 8vw 15vh;
+  }
+}

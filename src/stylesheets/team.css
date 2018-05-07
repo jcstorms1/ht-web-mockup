@@ -1,9 +1,9 @@
 .team-wrapper {
-  background-color: rgba(255, 255, 255, 0.5);
+  /* background-color: rgba(255, 255, 255, 0.5);
   background-image: url(../images/chicken-feathers3.jpeg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  background-attachment: fixed;
+  background-attachment: fixed; */
   padding: 0;
 }
 
@@ -23,15 +23,12 @@
 }
 
 .our-team {
-  padding: 10vh 5vw 15vh;
   text-align: center;
 }
 .ceo {
   display: flex;
   justify-content: center;
   align-content: center;
-  background-color: rgba(50, 66, 76, 0.5);
-  color: white;
 }
 
 .ceo h1 {

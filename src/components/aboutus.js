@@ -4,7 +4,7 @@ import "../stylesheets/aboutus.css";
 const AboutUs = () => {
   return (
     <section className="aboutus">
-      <div className="intro">
+      <div className="intro sm-container">
         <h1>Intimidated by incubation?</h1>
 
         <p>
@@ -20,7 +20,7 @@ const AboutUs = () => {
           on incubation too.
         </p>
       </div>
-      <div className="peep">
+      <div className="peep sm-container">
         <h1>Peep</h1>
         <p>
           Peep is your personal hatching assistant. She guides you through the
@@ -31,7 +31,7 @@ const AboutUs = () => {
           real-time conditions in the incubator.
         </p>
       </div>
-      <div className="egg">
+      <div className="egg sm-container">
         <h1>Egg</h1>
         <p>
           Peep’s egg really lets her show her techno-chicken wizardry. The egg
