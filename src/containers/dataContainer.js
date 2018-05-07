@@ -18,7 +18,13 @@ class DataContainer extends Component {
   render() {
     return (
       <div className="data-wrapper">
-        {this.state.data !== null ? <Graph data={this.state.data} /> : null}
+        {this.state.data !== null ? (
+          <Graph data={this.state.data} />
+        ) : (
+          <div className="sm-container">
+            <h1>Coming Soon to a computer near you!!!!!</h1>
+          </div>
+        )}
       </div>
     );
   }

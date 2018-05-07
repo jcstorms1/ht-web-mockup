@@ -1,8 +1,12 @@
 .data-wrapper {
   display: flex;
-  background-color: rgba(255, 255, 255, 0.95);
   color: black;
   height: 100%;
+  width: 100%;
+}
+
+.data-wrapper h1 {
+  text-align: center;
 }
 
 .chart-container {
@@ -11,7 +15,6 @@
   justify-content: center;
   width: 100%;
   height: 100%;
-  /* background-color: rgba(50, 66, 76, 0.5); */
 }
 
 .temp-humidity,
@@ -19,8 +22,6 @@
   width: 50%;
   margin: auto;
   margin-top: 5%;
-
-  /* background-color: rgba(50, 66, 76, 0.5); */
 }
 
 .pressure {
